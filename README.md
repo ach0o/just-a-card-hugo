@@ -1,6 +1,8 @@
 # just-a-card-hugo
 A hugo theme that's just-a-card. Dead simple. Best for personal introduction page.
 
+![just-a-card screenshot](https://github.com/achooan/just-a-card-hugo/blob/master/images/screenshot.png)
+
 ## Installation
 If you have a hugo project already, then simply add it to your themes.
 ```
