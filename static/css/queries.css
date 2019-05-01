@@ -1,0 +1,52 @@
+/* Big Tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small Tablet to Big Tablet: 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+  * {
+    font-size: 105%;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  #card {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    width: 75%;
+    max-width: 800px;
+  }
+  #bg-image {
+    height: 300px;
+  }
+  #profile-image {
+    margin-top: -30%;
+  }
+  .links a span {
+    visibility: visible;
+    color: #555;
+    background-color: transparent;
+    font-size: 60%;
+  }
+}
+
+/* Small Phone to Tablet: 481 to 767px(~iPad) */
+@media only screen and (max-width: 767px) {
+  #card {
+    width: 80%;
+  }
+  #bg-image {
+    height: 270px;
+  }
+  #profile-image {
+    max-width: 48%;
+    max-height: 48%;
+    margin-top: -35%;
+  }
+}
+
+/* Small Phone: 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}

@@ -1,0 +1,34 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Just A Card - Hugo"
+theme = "just-a-card"
+
+[author]
+  name = "John Doe"
+  title = "Software Engineer"
+  location = "Somewhere in the world"
+  company = "Company"
+  companyUrl = "#"
+  intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non elementum ipsum. Integer convallis iaculis felis, a pellentesque leo accumsan vitae. Vestibulum eu ullamcorper purus. Maecenas sollicitudin, turpis vitae ullamcorper cursus, purus quam sagittis nisl, ut laoreet turpis justo malesuada leo."
+  profile_img = "images/profile.jpeg"
+
+[params]
+  bg_color = "steelblue"
+  google_font = "Ubuntu"
+  bg_image = "images/background.png"
+  [[params.links]]
+    icon = "link"
+    name = "E-mail"
+    url = "mailto:#"
+  [[params.links]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/#"
+  [[params.links]]
+    icon = "linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/#"
+  [[params.links]]
+    icon = "file-text"
+    name = "Hire me!"
+    url = "/pdf/#"

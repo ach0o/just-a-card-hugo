@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+h1::first-letter,
+h2::first-letter,
+h3::first-letter,
+h4::first-letter,
+p::first-letter {
+  font-size: 128%;
+}
+
+/**********
+* Card
+***********/
+#card {
+  border: 5px solid white;
+  box-shadow: 10px 10px 10px #333;
+  width: 70%;
+  max-width: 500px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  background-color: #eee;
+  text-align: center;
+}
+
+/**********
+* Bg image
+***********/
+#bg-image {
+  height: 200px;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+/**********
+* Contents
+***********/
+#content {
+  padding: 30px;
+}
+
+#profile-image {
+  position: relative;
+  max-width: 43%;
+  max-height: 43%;
+  border-radius: 50%;
+  margin-top: -120px;
+  border: 5px solid lightgray;
+  box-shadow: 4px 4px 4px #333;
+}
+
+#company {
+  text-decoration: underline;
+  color: inherit;
+}
+
+#company:hover {
+  text-decoration: none;
+  color: #bbb;
+}
+
+#intro {
+  text-align: left;
+}
+
+/**********
+* Links
+***********/
+#links {
+  margin-top: 45px;
+}
+.links a {
+  text-decoration: none;
+  margin: 0 1.5%;
+}
+
+.links a span {
+  background-color: #444;
+  border-radius: 5px;
+  color: #eee;
+  font-size: 80%;
+  margin-top: 50px;
+  position: absolute;
+  padding: 4px;
+  visibility: hidden;
+}
+
+.links a:hover span {
+  visibility: visible;
+}
+
+/**********
+* Footer
+***********/
+footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: white;
+  z-index: -1;
+}
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+footer a:hover {
+  color: #bbb;
+}

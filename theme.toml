@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Just A Card"
+license = "MIT"
+licenselink = "https://github.com/achooan/just-a-card-hugo/blob/master/LICENSE"
+description = "A simple card single page theme for Hugo."
+homepage = "https://github.com/achooan/just-a-card-hugo"
+tags = ['card', 'personal', 'responsive', 'clean', 'simple']
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Changhyun An"
+  homepage = "https://github.com/achooan"

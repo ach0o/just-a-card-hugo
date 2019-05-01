@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <div id="card">
+    <!-- Card Background Image -->
+    <div id="bg-image" style="background-image: url('{{ .Site.Params.bg_image }}');"></div>
+
+    <!-- Card Content -->
+    <div id="content">
+
+      <!-- Author Information -->
+      {{ with .Site.Author }}
+        <img id="profile-image" src="{{.profile_img}}" alt="profile">
+        <h1 id="name">{{ .name }}</h1>
+        <h3 id="title">{{ .title }} @ 
+          <a id="company" href="{{ .companyUrl }}">
+            {{ .company }}
+          </a>
+        </h3>
+        <h4 id="location">{{ .location }}</h4>
+        <p id="intro">{{ .intro }}</p>
+      {{ end }}
+
+      <!-- Personal Links -->
+      <div id="links">
+        {{- range .Site.Params.links -}}
+          <div style="display:inline" class="links">
+            <a href="{{ .url }}" uk-icon="icon: {{ .icon }}; ratio: 2.5">
+              <span>{{ .name }}</span>
+            </a>
+          </div>
+        {{- end -}}
+      </div>
+    
+    <!-- End Content -->
+    </div>
+  <!-- End Card -->
+  </div>
+{{ end }}
