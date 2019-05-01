@@ -27,8 +27,8 @@ p::first-letter {
   box-shadow: 10px 10px 10px #333;
   width: 70%;
   max-width: 500px;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   background-color: #eee;
   text-align: center;
 }
@@ -37,7 +37,7 @@ p::first-letter {
 * Bg image
 ***********/
 #bg-image {
-  height: 200px;
+  height: 210px;
   background-size: cover;
   opacity: 0.8;
 }
@@ -54,7 +54,7 @@ p::first-letter {
   max-width: 43%;
   max-height: 43%;
   border-radius: 50%;
-  margin-top: -120px;
+  margin-top: -130px;
   border: 5px solid lightgray;
   box-shadow: 4px 4px 4px #333;
 }
@@ -71,6 +71,7 @@ p::first-letter {
 
 #intro {
   text-align: left;
+  line-height: 1.8;
 }
 
 /**********
