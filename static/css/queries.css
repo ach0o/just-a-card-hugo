@@ -9,16 +9,13 @@
     font-size: 200%;
   }
   #card {
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     width: 75%;
-  }
-  #profile-image {
-    margin-top: -30%;
   }
   .links a span {
     visibility: visible;
-    color: #555;
+    color: #333;
     background-color: transparent;
     font-size: 60%;
   }
@@ -30,13 +27,8 @@
     font-size: 100%;
   }
   #card {
-    width: 90%;
-    margin-top: 18%;
-  }
-  #profile-image {
-    max-width: 48%;
-    max-height: 48%;
-    margin-top: -34%;
+    width: 95%;
+    margin-top: 10%;
   }
 }
 
@@ -44,12 +36,9 @@
 @media only screen and (max-width: 480px) {
   #card {
     margin-top: 10%;
+    margin-bottom: 10%;
   }
-  #bg-image {
-    height: 180px;
-  }
-  #profile-image {
-    max-width: 65%;
-    margin-top: -50%;
+  #content {
+    padding: 30px 20px;
   }
 }

@@ -10,12 +10,13 @@ theme = "just-a-card"
   company = "Company"
   companyUrl = "#"
   intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non elementum ipsum. Integer convallis iaculis felis, a pellentesque leo accumsan vitae. Vestibulum eu ullamcorper purus. Maecenas sollicitudin, turpis vitae ullamcorper cursus, purus quam sagittis nisl, ut laoreet turpis justo malesuada leo."
-  profile_img = "images/profile.jpeg"
+  profile_image = "images/profile.jpeg"
 
 [params]
-  bg_color = "steelblue"
-  google_font = "Ubuntu"
-  bg_image = "images/background.png"
+  primary_color = "#ffe9a0"
+  secondary_color = "#4789d8"
+  google_font = "Overpass"
+
   [[params.links]]
     icon = "link"
     name = "E-mail"
@@ -31,4 +32,4 @@ theme = "just-a-card"
   [[params.links]]
     icon = "file-text"
     name = "Hire me!"
-    url = "/pdf/#"
+    url = "#"

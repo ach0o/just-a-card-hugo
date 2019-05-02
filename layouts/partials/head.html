@@ -19,7 +19,20 @@
   <!-- User Config Styles -->
   <style>
     * { font-family: {{ .google_font }}; }
-    body { background-color: {{ .bg_color }}; }
+    body { background-color: {{ .primary_color }}; }
+    #name, footer, footer a {
+      color: {{ .primary_color }};
+      background-color: {{ .secondary_color }};
+    }
+    h2::first-letter,
+    h3::first-letter,
+    h4::first-letter,
+    p::first-letter {
+      color: {{ .secondary_color }}
+    }
+    #profile-image {
+      border: 5px solid {{ .secondary_color }};
+    }
   </style>
 {{ end }}
 
