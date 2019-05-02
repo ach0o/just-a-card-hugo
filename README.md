@@ -30,12 +30,13 @@ Then, add the following lines to your `config.toml`
   company = "Company Inc."
   companyUrl = "#"
   intro = "Lorem ipsum dolor sit amet, ..."
-  profile_img = "images/profile.jpeg"
+  profile_image = "images/profile.jpeg"
 
 [params]
-  bg_color = "steelblue"
-  google_font = "Ubuntu"
-  bg_image = "images/background.png"
+  primary_color = "#ffe9a0"
+  secondary_color = "#4789d8"
+  google_font = "Overpass"
+
   [[params.links]]
     icon = "link"
     name = "E-mail"
@@ -51,13 +52,13 @@ Then, add the following lines to your `config.toml`
 ```
 
 ### Images
-Required images are `profile` and `background` inside `static/images` folder. It doesn't matter which image format you use, as long as you edit the `config.toml` accordingly.
+Include `profile` image inside `static/images` folder. It doesn't matter which image format you use, as long as you edit the `config.toml` accordingly.
 
 ### Colors
-Any browser-recognizable colors are possible. (eg. #FFFFF, white, #DDD)
+Any browser-recognizable colors are possible. (eg. #FFFFF, white, #DDD). `primary_color` is a color for the background (eg. yellow) and `secondary_color` is a color for the border and the footer (eg. blue).
 
 ### Font
-This theme uses [Google Font](https://fonts.google.com). Simply add the font name to `google_font` (default font is `Ubuntu`).
+This theme uses [Google Font](https://fonts.google.com). Simply add the font name to `google_font` (default font is `Overpass`).
 
 ### Icons
 This theme uses UiKit Icons. Please refer to [UIKit Icons](https://getuikit.com/docs/icon)
