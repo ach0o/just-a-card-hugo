@@ -16,6 +16,13 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family={{ .google_font }}" rel="stylesheet">
 
+  <!-- Address Bar Color: Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="{{ .secondary_color }}">
+  <!-- Address Bar Color: Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="{{ .secondary_color }}">
+  <!-- Address Bar Color: iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="{{ .secondary_color }}">
+
   <!-- User Config Styles -->
   <style>
     * { font-family: {{ .google_font }}; }
