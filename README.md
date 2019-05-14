@@ -8,6 +8,9 @@ If you have a hugo project already, then simply add it to your themes.
 ```
 git init // skip this if you have initialized git.
 git submodule add https://github.com/achooan/just-a-card-hugo themes/just-a-card
+
+// In case you need to update the theme to the latest version, run this command.
+git submodule update --rebase --remote
 ```
 
 Else, you can just clone this theme to your project.
@@ -73,4 +76,4 @@ You may add more links, but be sure to have a proper links. If you wish to add n
 ```
 
 ## License
-See [LICENSE](https://github.com/achooan/just-a-card-hugoblob/master/LICENSE)
+See [LICENSE](https://github.com/achooan/just-a-card-hugo/blob/master/LICENSE)
