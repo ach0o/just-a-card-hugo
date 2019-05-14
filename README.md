@@ -76,4 +76,4 @@ You may add more links, but be sure to have a proper links. If you wish to add n
 ```
 
 ## License
-See [LICENSE](https://github.com/achooan/just-a-card-hugoblob/master/LICENSE)
+See [LICENSE](https://github.com/achooan/just-a-card-hugo/blob/master/LICENSE)
