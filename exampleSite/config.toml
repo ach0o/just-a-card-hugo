@@ -8,7 +8,7 @@ theme = "just-a-card"
   title = "Software Engineer"
   location = "Somewhere in the world"
   company = "Company"
-  companyUrl = "#"
+  company_url = "#"
   intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non elementum ipsum. Integer convallis iaculis felis, a pellentesque leo accumsan vitae. Vestibulum eu ullamcorper purus. Maecenas sollicitudin, turpis vitae ullamcorper cursus, purus quam sagittis nisl, ut laoreet turpis justo malesuada leo."
   profile_image = "images/profile.jpeg"
 
