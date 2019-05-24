@@ -31,7 +31,7 @@ Then, add the following lines to your `config.toml`
   title = "Software Engineer"
   location = "Somewhere in the world"
   company = "Company Inc."
-  companyUrl = "#"
+  company_url = "#"
   intro = "Lorem ipsum dolor sit amet, ..."
   profile_image = "images/profile.jpeg"
 
