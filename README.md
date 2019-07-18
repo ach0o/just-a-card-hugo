@@ -6,10 +6,13 @@ A hugo theme that's just-a-card. Dead simple. Best for personal introduction pag
 ## Installation
 If you have a hugo project already, then simply add it to your themes.
 ```
-git init // skip this if you have initialized git.
-git submodule add https://github.com/achooan/just-a-card-hugo themes/just-a-card
+git init // skip this if you already initialized git.
 
-// In case you need to update the theme to the latest version, run this command.
+git submodule add https://github.com/achooan/just-a-card-hugo themes/just-a-card
+```
+
+In case you need to update the theme to the latest version, run this command.
+```
 git submodule update --rebase --remote
 ```
 
@@ -21,7 +24,7 @@ git clone https://github.com/achooan/just-a-card-hugo themes/just-a-card
 ## Configuration
 To use this theme, configure `theme` in your `config.toml` file.
 ```
-#config.toml
+# config.toml
 theme = "just-a-card"
 ```
 Then, add the following lines to your `config.toml`
